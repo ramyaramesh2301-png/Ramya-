@@ -1,90 +1,133 @@
-/* General Styles */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #f4f4f9;
-  color: #333;
-  transition: background 0.3s, color 0.3s;
-}
+<!DOCTYPE html>
 
-header {
-  background: #4a90e2;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-}
+<html lang="en">
 
-nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  background: #333;
-  padding: 10px 0;
-  position: sticky;
-  top: 0;
-  z-index: 10;
-}
+<head>
 
-nav a {
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-}
+  <meta charset="UTF-8">
 
-nav a:hover {
-  color: #4a90e2;
-}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-nav button {
-  cursor: pointer;
-  background: #4a90e2;
-  color: white;
-  border: none;
-  padding: 8px 15px;
-  border-radius: 5px;
-  font-size: 14px;
-}
+  <title>Ramya | Portfolio</title>
 
-/* Sections */
-section {
-  max-width: 1000px;
-  margin: 30px auto;
-  padding: 20px;
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  transition: background 0.3s, color 0.3s;
-}
+  <link rel="stylesheet" href="style.css">
 
-h2 {
-  color: #4a90e2;
-}
+  <meta name="description" content="Ramya's digital portfolio | B.Sc Computer Technology student | Frontend Developer">
 
-.project {
-  margin-bottom: 15px;
-  padding: 15px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-}
+</head>
 
-footer {
-  text-align: center;
-  background: #333;
-  color: white;
-  padding: 15px 0;
-  margin-top: 30px;
-}
+<body>
 
-/* Dark Mode */
-.dark-mode {
-  background: #1e1e1e;
-  color: #f4f4f9;
-}
+  <!-- Header -->
 
-.dark-mode section {
-  background: #2c2c2c;
-}
+  <header>
 
-.dark-mode nav {
-  background: #111;
-}
+    <h1 class="typing">Hi, I'm Ramya</h1>
+
+    <p>B.Sc Computer Technology | Frontend Developer</p>
+
+  </header>
+
+  <!-- Navigation -->
+
+  <nav>
+
+    <a href="#about">About</a>
+
+    <a href="#skills">Skills</a>
+
+    <a href="#projects">Projects</a>
+
+    <a href="#contact">Contact</a>
+
+    <button id="toggleBtn">🌙 Dark Mode</button>
+
+  </nav>
+
+  <!-- About Section -->
+
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+
+      I am a Computer Technology student passionate about exploring cutting-edge technologies such as cloud computing, IoT, and cyber defense.
+
+    </p>
+
+  </section>
+
+  <!-- Skills Section -->
+
+  <section id="skills">
+
+    <h2>Skills</h2>
+
+    <ul>
+
+      <li>HTML, CSS, JavaScript</li>
+
+      <li>Python & Data Visualization</li>
+
+      <li>SQL & Database Management</li>
+
+      <li>Java Programming</li>
+
+    </ul>
+
+  </section>
+
+  <!-- Projects Section -->
+
+  <section id="projects">
+
+    <h2>Projects</h2>
+
+    <div class="project">
+
+      <h3>Personal Portfolio Website</h3>
+
+      <p>A responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+
+    </div>
+
+    <div class="project">
+
+      <h3>Data Dashboard</h3>
+
+      <p>Created interactive charts using Python and Power BI for analyzing sales data.</p>
+
+    </div>
+
+  </section>
+
+  <!-- Contact Section -->
+
+  <section id="contact">
+
+    <h2>Contact</h2>
+
+    <p>Email: <a href="mailto:ramyaramesh2301@gmail.com">ramyaramesh2301@gmail.com</a></p>
+
+    <p>Phone: +91 9942093105</p>
+
+    <p>Location: Coimbatore, India</p>
+
+  </section>
+
+  <!-- Footer -->
+
+  <footer>
+
+    <p>© 2025 Ramya | Student Digital Portfolio</p>
+
+  </footer>
+
+  <!-- JS File -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
